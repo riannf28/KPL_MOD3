@@ -6,7 +6,11 @@ namespace modul3_1302200040
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("-----Nama Buah & Kode Buah-----");
+            Console.Write("Nama Buah : ");
+            string buah = Console.ReadLine();
+            KodeBuah kode = new KodeBuah();
+            Console.WriteLine("Kode Buah : " + kode.getKodeBuah(buah));
         }
     }
 }
